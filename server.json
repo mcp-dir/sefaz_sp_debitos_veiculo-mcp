@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/sefaz_sp_debitos_veiculo-mcp",
+  "title": "SEFAZ SP: Débitos de Veículo",
+  "description": "SEFAZ SP: Debts de Vehicle, official-source lookup. Platform-hosted, pay per query with prepaid cred",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/sefaz_sp_debitos_veiculo-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_sefaz_sp_debitos_veiculo"
+    }
+  ]
+}
